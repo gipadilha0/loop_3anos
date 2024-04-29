@@ -8,7 +8,7 @@ function verificarTime() {
     var respostaTime = prompt("Quais os tres estados mais populosos do Brasil?");
 
     
-    if (respostaTime.toLowerCase() === "São Paulo,Rio de Janeiro e Minas Gerais") {
+    if (respostaTime.toLowerCase() === "São Paulo, Rio de Janeiro e Minas Gerais") {
       alert("Isso mesmo! Esses são os 3 estados mais populosos do Brasil!");
       continuarPerguntando = false; // Sai do loop após a resposta correta
     } else {
